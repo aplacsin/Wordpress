@@ -1,0 +1,8 @@
+2019-08-18T11:00:27+00:00 CRITICAL Uncaught GuzzleHttp\Exception\ClientException: Client error: `GET https://api.telegram.org/bot885580719:AAHuClGeSq4xZsDWJBtejeNPjEt3VSe6pqE/sendMessage?text=Add+new+product&chat_id=-283927165` resulted in a `400 Bad Request` response:
+{"ok":false,"error_code":400,"description":"Bad Request: group chat was upgraded to a supergroup chat","parameters":{"mi (truncated...)
+ in D:\Server\data\htdocs\wordpress\wp-content\plugins\add new product\vendor\guzzlehttp\guzzle\src\Exception\RequestException.php:113
+Stack trace:
+#0 D:\Server\data\htdocs\wordpress\wp-content\plugins\add new product\vendor\guzzlehttp\guzzle\src\Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 D:\Server\data\htdocs\wordpress\wp-content\plugins\add new product\vendor\guzzlehttp\promises\src\Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 D:\Server\data\htdocs\wordpress\wp-content\plugins\add new product\vendor в D:\Server\data\htdocs\wordpress\wp-content\plugins\add new product\vendor\guzzlehttp\guzzle\src\Exception\RequestException.php на строке 113
+

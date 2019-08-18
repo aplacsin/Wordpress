@@ -1,0 +1,26 @@
+2019-08-17T14:24:15+00:00 CRITICAL Cannot redeclare add_meta_box() (previously declared in D:\Server\data\htdocs\wordpress\wp-admin\includes\template.php:993) в D:\Server\data\htdocs\wordpress\wp-admin\includes\template.php на строке 2577
+
+2019-08-17T14:24:29+00:00 CRITICAL Cannot redeclare add_meta_box() (previously declared in D:\Server\data\htdocs\wordpress\wp-admin\includes\template.php:993) в D:\Server\data\htdocs\wordpress\wp-admin\includes\template.php на строке 2577
+
+2019-08-17T14:25:30+00:00 CRITICAL Cannot redeclare add_meta_box() (previously declared in D:\Server\data\htdocs\wordpress\wp-admin\includes\template.php:993) в D:\Server\data\htdocs\wordpress\wp-admin\includes\template.php на строке 2577
+
+2019-08-17T14:25:31+00:00 CRITICAL Cannot redeclare add_meta_box() (previously declared in D:\Server\data\htdocs\wordpress\wp-admin\includes\template.php:993) в D:\Server\data\htdocs\wordpress\wp-admin\includes\template.php на строке 2577
+
+2019-08-17T14:25:32+00:00 CRITICAL Cannot redeclare add_meta_box() (previously declared in D:\Server\data\htdocs\wordpress\wp-admin\includes\template.php:993) в D:\Server\data\htdocs\wordpress\wp-admin\includes\template.php на строке 2577
+
+2019-08-17T14:25:34+00:00 CRITICAL Cannot redeclare add_meta_box() (previously declared in D:\Server\data\htdocs\wordpress\wp-admin\includes\template.php:993) в D:\Server\data\htdocs\wordpress\wp-admin\includes\template.php на строке 2577
+
+2019-08-17T14:25:35+00:00 CRITICAL Cannot redeclare add_meta_box() (previously declared in D:\Server\data\htdocs\wordpress\wp-admin\includes\template.php:993) в D:\Server\data\htdocs\wordpress\wp-admin\includes\template.php на строке 2577
+
+2019-08-17T14:25:37+00:00 CRITICAL Cannot redeclare add_meta_box() (previously declared in D:\Server\data\htdocs\wordpress\wp-admin\includes\template.php:993) в D:\Server\data\htdocs\wordpress\wp-admin\includes\template.php на строке 2577
+
+2019-08-17T14:25:38+00:00 CRITICAL Cannot redeclare add_meta_box() (previously declared in D:\Server\data\htdocs\wordpress\wp-admin\includes\template.php:993) в D:\Server\data\htdocs\wordpress\wp-admin\includes\template.php на строке 2577
+
+2019-08-17T16:46:14+00:00 CRITICAL Uncaught GuzzleHttp\Exception\ClientException: Client error: `GET https://api.telegram.org/bot885580719:AAHuClGeSq4xZsDWJBtejeNPjEt3VSe6pqE/sendMessage?text=%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD+%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9+%D1%82%D0%BE%D0%B2%D0%B0%D1%80&chat_id=308119552` resulted in a `400 Bad Request` response:
+{"ok":false,"error_code":400,"description":"Bad Request: chat not found"}
+ in D:\Server\data\htdocs\wordpress\wp-content\plugins\add new product\vendor\guzzlehttp\guzzle\src\Exception\RequestException.php:113
+Stack trace:
+#0 D:\Server\data\htdocs\wordpress\wp-content\plugins\add new product\vendor\guzzlehttp\guzzle\src\Middleware.php(66): GuzzleHttp\Exception\RequestException::create(Object(GuzzleHttp\Psr7\Request), Object(GuzzleHttp\Psr7\Response))
+#1 D:\Server\data\htdocs\wordpress\wp-content\plugins\add new product\vendor\guzzlehttp\promises\src\Promise.php(203): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Response))
+#2 D:\Server\data\htdocs\wordpress\wp-conten в D:\Server\data\htdocs\wordpress\wp-content\plugins\add new product\vendor\guzzlehttp\guzzle\src\Exception\RequestException.php на строке 113
+
